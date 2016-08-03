@@ -194,7 +194,7 @@
             "description" : "Victoria - s282 recount",
             "vacancies" : 6,
             "house" : "Australian Senate",
-            "state" : "VI",
+            "state" : "VIC",
             "automation" : [],
 	    "disable_bulk_exclusions": true,
 	    "s282_recount": "vic",
