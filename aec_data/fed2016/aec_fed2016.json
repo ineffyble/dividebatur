@@ -155,6 +155,57 @@
 	    }
         },
         {
+            "path" : "vic/data",
+            "name" : "VIC",
+            "shortname" : "vic",
+            "description" : "Victoria",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "VIC",
+            "automation" : [],
+	    "disable_bulk_exclusions": true,
+	    "aec-data" : {
+		"format": "AusSenatePost2015",
+		"senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+		"all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+		"formal-preferences": "vic/data/aec-senate-formalpreferences-20499-VIC.csv"
+	    }
+        },
+        {
+            "path" : "vic/data",
+            "name" : "VIC with bulk",
+            "shortname" : "vic_bulk",
+            "description" : "Victoria with Bulk Exclusions",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "VIC",
+            "automation" : [],
+	    "aec-data" : {
+		"format": "AusSenatePost2015",
+		"senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+		"all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+		"formal-preferences": "vic/data/aec-senate-formalpreferences-20499-VIC.csv"
+	    }
+        },
+        {
+            "path" : "vic/data",
+            "name" : "VIC s282",
+            "shortname" : "vic_s282",
+            "description" : "Victoria - s282 recount",
+            "vacancies" : 6,
+            "house" : "Australian Senate",
+            "state" : "VI",
+            "automation" : [],
+	    "disable_bulk_exclusions": true,
+	    "s282_recount": "vic",
+	    "aec-data" : {
+		"format": "AusSenatePost2015",
+		"senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+		"all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+		"formal-preferences": "vic/data/aec-senate-formalpreferences-20499-VIC.csv"
+	    }
+        },
+        {
             "path" : "wa/data",
             "name" : "WA",
             "shortname" : "wa",
