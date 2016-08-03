@@ -12,6 +12,7 @@
             "state" : "WA",
 	    "aec-data" : {
 		"format": "AusSenatePre2015",
+                "all-candidates": "common/2013federalelection-all-candidates-nat-22-08.csv",
 		"senate-candidates": "common/SenateCandidatesDownload-17496.csv",
 		"group-voting-tickets": "common/SenateGroupVotingTicketsDownload-17496.csv",
 		"first-preferences": "count1/data/SenateFirstPrefsByStateByVoteTypeDownload-17496.csv",
@@ -29,6 +30,7 @@
             "state" : "WA",
 	    "aec-data" : {
 		"format": "AusSenatePre2015",
+                "all-candidates": "common/2013federalelection-all-candidates-nat-22-08.csv",
 		"senate-candidates": "common/SenateCandidatesDownload-17496.csv",
 		"group-voting-tickets": "common/SenateGroupVotingTicketsDownload-17496.csv",
 		"first-preferences": "count2/data/SenateFirstPrefsByStateByVoteTypeDownload-17496.csv",
@@ -46,6 +48,7 @@
             "state" : "WA",
 	    "aec-data" : {
 		"format": "AusSenatePre2015",
+                "all-candidates": "common/2013federalelection-all-candidates-nat-22-08.csv",
 		"senate-candidates": "common/SenateCandidatesDownload-17496.csv",
 		"group-voting-tickets": "common/SenateGroupVotingTicketsDownload-17496.csv",
 		"first-preferences": "count2_plus_1370/data/SenateFirstPrefsByStateByVoteTypeDownload-17496.csv",
