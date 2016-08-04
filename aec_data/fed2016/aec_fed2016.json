@@ -37,7 +37,7 @@
         {
             "path" : "nsw/data",
             "name" : "NSW s282 (1)",
-            "shortname" : "nsw_s282_method1",
+            "shortname" : "nsw_s282",
             "description" : "NSW - s282 - limited original form",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -58,7 +58,7 @@
         {
             "path" : "nsw/data",
             "name" : "NSW s282 (2)",
-            "shortname" : "nsw_s282_method2",
+            "shortname" : "nsw_s282_savings",
             "description" : "NSW - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -113,7 +113,7 @@
         {
             "path" : "qld/data",
             "name" : "QLD s282 (1)",
-            "shortname" : "qld_s282_method1",
+            "shortname" : "qld_s282",
             "description" : "Queensland - s282 recount - limited original form",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -134,7 +134,7 @@
         {
             "path" : "qld/data",
             "name" : "QLD s282 (2)",
-            "shortname" : "qld_s282_method2",
+            "shortname" : "qld_s282_savings",
             "description" : "Queensland - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -172,7 +172,7 @@
         {
             "path" : "sa/data",
             "name" : "SA s282 (1)",
-            "shortname" : "sa_s282_method1",
+            "shortname" : "sa_s282",
             "description" : "South Australia - s282 recount - limited original form",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -193,7 +193,7 @@
         {
             "path" : "sa/data",
             "name" : "SA s282 (2)",
-            "shortname" : "sa_s282_method2",
+            "shortname" : "sa_s282_savings",
             "description" : "South Australia - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -232,7 +232,7 @@
         {
             "path" : "tas/data",
             "name" : "TAS s282 (1)",
-            "shortname" : "tas_s282_method1",
+            "shortname" : "tas_s282",
             "description" : "Tasmania - s282 recount - limited original form",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -253,7 +253,7 @@
         {
             "path" : "tas/data",
             "name" : "TAS s282 (2)",
-            "shortname" : "tas_s282_method2",
+            "shortname" : "tas_s282_savings",
             "description" : "Tasmania - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -291,7 +291,7 @@
         {
             "path" : "vic/data",
             "name" : "VIC s282 (1)",
-            "shortname" : "vic_s282_method1",
+            "shortname" : "vic_s282",
             "description" : "Victoria - s282 recount - limited original form",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -312,7 +312,7 @@
         {
             "path" : "vic/data",
             "name" : "VIC s282 (2)",
-            "shortname" : "vic_s282_method2",
+            "shortname" : "vic_s282_savings",
             "description" : "Victoria - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
@@ -371,7 +371,7 @@
         {
             "path" : "wa/data",
             "name" : "WA s282 (2)",
-            "shortname" : "wa_s282_method2",
+            "shortname" : "wa_s282_savings",
             "description" : "Western Australia - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
