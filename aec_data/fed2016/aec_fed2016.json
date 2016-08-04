@@ -18,23 +18,6 @@
             }
         },
         {
-            "path" : "act/data",
-            "name" : "ACT with bulk",
-            "shortname" : "act_bulk",
-            "description" : "Australian Capital Territory with Bulk Exclusions",
-            "vacancies" : 2,
-            "house" : "Australian Senate",
-            "state" : "ACT",
-            "automation" : [],
-            "disable_bulk_exclusions": true,
-            "aec-data" : {
-                "format": "AusSenatePost2015",
-                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
-                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
-                "formal-preferences": "act/data/aec-senate-formalpreferences-20499-ACT.csv"
-            }
-        },
-        {
             "path" : "nsw/data",
             "name" : "NSW",
             "shortname" : "nsw",
@@ -53,13 +36,18 @@
         },
         {
             "path" : "nsw/data",
-            "name" : "NSW with bulk",
-            "shortname" : "nsw_bulk",
-            "description" : "New South Wales with Bulk Exclusions",
-            "vacancies" : 12,
+            "name" : "NSW s282 (1)",
+            "shortname" : "nsw_s282_method1",
+            "description" : "NSW - s282 - limited original form",
+            "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "NSW",
-            "automation" : [1],
+            "automation" : [],
+            "disable_bulk_exclusions": true,
+            "s282": {
+		"method": "restrict_form",
+		"recount": "nsw"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -69,15 +57,18 @@
         },
         {
             "path" : "nsw/data",
-            "name" : "NSW s282",
-            "shortname" : "nsw_s282",
-            "description" : "NSW - s282 recount",
+            "name" : "NSW s282 (2)",
+            "shortname" : "nsw_s282_method2",
+            "description" : "NSW - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "NSW",
             "automation" : [],
             "disable_bulk_exclusions": true,
-            "s282_recount": "nsw",
+            "s282": {
+		"method": "restrict_form_with_savings",
+		"recount": "nsw"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -121,13 +112,18 @@
         },
         {
             "path" : "qld/data",
-            "name" : "QLD with bulk",
-            "shortname" : "qld_bulk",
-            "description" : "Queensland with Bulk Exclusions",
-            "vacancies" : 12,
+            "name" : "QLD s282 (1)",
+            "shortname" : "qld_s282_method1",
+            "description" : "Queensland - s282 recount - limited original form",
+            "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "QLD",
-            "automation" : [2],
+            "automation" : [],
+            "disable_bulk_exclusions": true,
+            "s282": {
+		"method": "restrict_form",
+		"recount": "qld"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -137,15 +133,18 @@
         },
         {
             "path" : "qld/data",
-            "name" : "QLD s282",
-            "shortname" : "qld_s282",
-            "description" : "Queensland - s282 recount",
+            "name" : "QLD s282 (2)",
+            "shortname" : "qld_s282_method2",
+            "description" : "Queensland - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "QLD",
             "automation" : [],
             "disable_bulk_exclusions": true,
-            "s282_recount": "qld",
+            "s282": {
+		"method": "restrict_form_with_savings",
+		"recount": "qld"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -172,13 +171,18 @@
         },
         {
             "path" : "sa/data",
-            "name" : "SA with bulk",
-            "shortname" : "sa_bulk",
-            "description" : "South Australia with Bulk Exclusions",
-            "vacancies" : 12,
+            "name" : "SA s282 (1)",
+            "shortname" : "sa_s282_method1",
+            "description" : "South Australia - s282 recount - limited original form",
+            "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "SA",
-            "automation" : [2],
+            "automation" : [],
+            "disable_bulk_exclusions": true,
+            "s282": {
+		"method": "restrict_form",
+		"recount": "sa"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -188,15 +192,18 @@
         },
         {
             "path" : "sa/data",
-            "name" : "SA s282",
-            "shortname" : "sa_s282",
-            "description" : "South Australia - s282 recount",
+            "name" : "SA s282 (2)",
+            "shortname" : "sa_s282_method2",
+            "description" : "South Australia - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "SA",
             "automation" : [],
             "disable_bulk_exclusions": true,
-            "s282_recount": "sa",
+            "s282": {
+		"method": "restrict_form_with_savings",
+		"recount": "sa"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -224,13 +231,18 @@
         },
         {
             "path" : "tas/data",
-            "name" : "TAS with bulk",
-            "shortname" : "tas_bulk",
-            "description" : "Tasmania with Bulk Exclusions",
-            "vacancies" : 12,
+            "name" : "TAS s282 (1)",
+            "shortname" : "tas_s282_method1",
+            "description" : "Tasmania - s282 recount - limited original form",
+            "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "TAS",
-            "automation" : [2],
+            "automation" : [],
+            "disable_bulk_exclusions": true,
+            "s282": {
+		"method": "restrict_form",
+		"recount": "tas"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -240,15 +252,18 @@
         },
         {
             "path" : "tas/data",
-            "name" : "TAS s282",
-            "shortname" : "tas_s282",
-            "description" : "Tasmania - s282 recount",
+            "name" : "TAS s282 (2)",
+            "shortname" : "tas_s282_method2",
+            "description" : "Tasmania - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "TAS",
             "automation" : [],
             "disable_bulk_exclusions": true,
-            "s282_recount": "tas",
+            "s282": {
+		"method": "restrict_form_with_savings",
+		"recount": "tas"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -275,13 +290,18 @@
         },
         {
             "path" : "vic/data",
-            "name" : "VIC with bulk",
-            "shortname" : "vic_bulk",
-            "description" : "Victoria with Bulk Exclusions",
-            "vacancies" : 12,
+            "name" : "VIC s282 (1)",
+            "shortname" : "vic_s282_method1",
+            "description" : "Victoria - s282 recount - limited original form",
+            "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "VIC",
             "automation" : [],
+            "disable_bulk_exclusions": true,
+            "s282": {
+		"method": "restrict_form",
+		"recount": "vic"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -291,15 +311,18 @@
         },
         {
             "path" : "vic/data",
-            "name" : "VIC s282",
-            "shortname" : "vic_s282",
-            "description" : "Victoria - s282 recount",
+            "name" : "VIC s282 (2)",
+            "shortname" : "vic_s282_method2",
+            "description" : "Victoria - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "VIC",
             "automation" : [],
             "disable_bulk_exclusions": true,
-            "s282_recount": "vic",
+            "s282": {
+		"method": "restrict_form_with_savings",
+		"recount": "vic"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -326,13 +349,18 @@
         },
         {
             "path" : "wa/data",
-            "name" : "WA with bulk",
-            "shortname" : "wa_bulk",
-            "description" : "Western Australia with Bulk Exclusions",
-            "vacancies" : 12,
+            "name" : "WA s282 (1)",
+            "shortname" : "wa_s282_1",
+            "description" : "Western Australia - s282 recount - limited original form",
+            "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
+            "disable_bulk_exclusions": true,
+            "s282": {
+		"method": "restrict_form",
+		"recount": "wa"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -342,15 +370,18 @@
         },
         {
             "path" : "wa/data",
-            "name" : "WA s282",
-            "shortname" : "wa_s282",
-            "description" : "Western Australia - s282 recount",
+            "name" : "WA s282 (2)",
+            "shortname" : "wa_s282_method2",
+            "description" : "Western Australia - s282 recount - limited original form with ATL savings",
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
             "disable_bulk_exclusions": true,
-            "s282_recount": "wa",
+            "s282": {
+		"method": "restrict_form_with_savings",
+		"recount": "wa"
+	    },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -359,6 +390,5 @@
             }
         }
     ],
-    "method" : "AusSenatePost2015",
     "title" : "Australian Senate 2016"
 }
