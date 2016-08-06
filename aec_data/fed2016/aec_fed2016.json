@@ -388,6 +388,48 @@
                 "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
                 "formal-preferences": "wa/data/aec-senate-formalpreferences-20499-WA.csv"
             }
+        },
+        {
+            "path" : "wa/data",
+            "name" : "WA",
+            "shortname" : "wa_phon_1",
+            "description" : "Western Australia - recount without PHON #1 (CULLETON, Rodney) - relaxed BTL formality",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "WA",
+            "automation" : [],
+            "disable_bulk_exclusions": true,
+	    "remove": {
+		"method": "relaxed",
+		"candidates": [["CULLETON", "Rodney Norman"]]
+	    },
+            "aec-data" : {
+                "format": "AusSenatePost2015",
+                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+                "formal-preferences": "wa/data/aec-senate-formalpreferences-20499-WA.csv"
+            }
+        },
+        {
+            "path" : "wa/data",
+            "name" : "WA",
+            "shortname" : "wa_phon_2",
+            "description" : "Western Australia - recount without PHON #1 (CULLETON, Rodney) - strict BTL formality",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "WA",
+            "automation" : [],
+            "disable_bulk_exclusions": true,
+	    "remove": {
+		"method": "strict",
+		"candidates": [["CULLETON", "Rodney Norman"]]
+	    },
+            "aec-data" : {
+                "format": "AusSenatePost2015",
+                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+                "formal-preferences": "wa/data/aec-senate-formalpreferences-20499-WA.csv"
+            }
         }
     ],
     "title" : "Australian Senate 2016"
