@@ -9,7 +9,6 @@
             "house" : "Australian Senate",
             "state" : "ACT",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -26,7 +25,6 @@
             "house" : "Australian Senate",
             "state" : "NSW",
             "automation" : [29252],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -43,7 +41,6 @@
             "house" : "Australian Senate",
             "state" : "NSW",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form",
 		"recount_from": "nsw"
@@ -64,7 +61,6 @@
             "house" : "Australian Senate",
             "state" : "NSW",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form_with_savings",
 		"recount_from": "nsw"
@@ -102,7 +98,6 @@
             "house" : "Australian Senate",
             "state" : "QLD",
             "automation" : [28387],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -119,7 +114,6 @@
             "house" : "Australian Senate",
             "state" : "QLD",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form",
 		"recount_from": "qld"
@@ -140,7 +134,6 @@
             "house" : "Australian Senate",
             "state" : "QLD",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form_with_savings",
 		"recount_from": "qld"
@@ -161,7 +154,6 @@
             "house" : "Australian Senate",
             "state" : "SA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -178,7 +170,6 @@
             "house" : "Australian Senate",
             "state" : "SA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form",
 		"recount_from": "sa"
@@ -199,7 +190,6 @@
             "house" : "Australian Senate",
             "state" : "SA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form_with_savings",
 		"recount_from": "sa"
@@ -221,7 +211,6 @@
             "house" : "Australian Senate",
             "state" : "TAS",
             "automation" : [28601],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -238,7 +227,6 @@
             "house" : "Australian Senate",
             "state" : "TAS",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form",
 		"recount_from": "tas"
@@ -259,7 +247,6 @@
             "house" : "Australian Senate",
             "state" : "TAS",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form_with_savings",
 		"recount_from": "tas"
@@ -280,7 +267,6 @@
             "house" : "Australian Senate",
             "state" : "VIC",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -297,7 +283,6 @@
             "house" : "Australian Senate",
             "state" : "VIC",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form",
 		"recount_from": "vic"
@@ -318,7 +303,6 @@
             "house" : "Australian Senate",
             "state" : "VIC",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form_with_savings",
 		"recount_from": "vic"
@@ -339,7 +323,6 @@
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -356,7 +339,6 @@
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form",
 		"recount_from": "wa"
@@ -377,7 +359,6 @@
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
             "s282": {
 		"method": "restrict_form_with_savings",
 		"recount_from": "wa"
@@ -398,7 +379,6 @@
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
 	    "remove": {
 		"method": "relaxed",
 		"candidates": [["CULLETON", "Rodney Norman"]]
@@ -419,7 +399,6 @@
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
-            "disable_bulk_exclusions": true,
 	    "remove": {
 		"method": "strict",
 		"candidates": [["CULLETON", "Rodney Norman"]]

@@ -9,7 +9,6 @@
             "house" : "Australian Senate",
             "state" : "WA",
             "automation" : [],
-	    "disable_bulk_exclusions": false,
 	    "aec-data" : {
 		"format": "AusSenatePost2015",
 		"senate-candidates": "common/SenateCandidatesDownload-20499.csv",

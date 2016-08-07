@@ -10,7 +10,6 @@
             "house" : "Australian Senate",
             "state" : "TAS",
             "automation" : [28601],
-	    "disable_bulk_exclusions": true,
 	    "aec-data" : {
 		"format": "AusSenatePost2015",
 		"senate-candidates": "common/SenateCandidatesDownload-20499.csv",
