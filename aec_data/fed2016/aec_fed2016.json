@@ -25,7 +25,7 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "NSW",
-            "automation" : [1],
+            "automation" : [29252],
             "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
@@ -101,7 +101,7 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "QLD",
-            "automation" : [2],
+            "automation" : [28387],
             "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",
@@ -220,7 +220,7 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "TAS",
-            "automation" : [2],
+            "automation" : [28601],
             "disable_bulk_exclusions": true,
             "aec-data" : {
                 "format": "AusSenatePost2015",

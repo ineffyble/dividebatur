@@ -22,7 +22,7 @@
             "name" : "WA",
             "shortname" : "wa",
             "description" : "Western Australia",
-            "automation" : [1, 1],
+            "automation" : [24732, 24843],
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "WA",

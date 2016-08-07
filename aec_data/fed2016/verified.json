@@ -9,7 +9,7 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "TAS",
-            "automation" : [2],
+            "automation" : [28601],
 	    "disable_bulk_exclusions": true,
 	    "aec-data" : {
 		"format": "AusSenatePost2015",

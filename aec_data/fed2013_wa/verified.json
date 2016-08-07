@@ -6,7 +6,7 @@
             "name" : "Initial Count",
             "shortname" : "wa_count1",
             "description" : "First count of the votes, replaced by later recount.",
-            "automation" : [1, 1],
+            "automation" : [24732, 24843],
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "WA",
