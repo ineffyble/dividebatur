@@ -372,7 +372,7 @@
         },
         {
             "path" : "wa/data",
-            "name" : "WA",
+            "name" : "WA PHON #1 - strict BTL",
             "shortname" : "wa_phon_1",
             "description" : "Western Australia - recount without PHON #1 (CULLETON, Rodney) - relaxed BTL formality",
             "vacancies" : 12,
@@ -392,7 +392,7 @@
         },
         {
             "path" : "wa/data",
-            "name" : "WA",
+            "name" : "WA PHON #1 - strict BTL",
             "shortname" : "wa_phon_2",
             "description" : "Western Australia - recount without PHON #1 (CULLETON, Rodney) - strict BTL formality",
             "vacancies" : 12,
