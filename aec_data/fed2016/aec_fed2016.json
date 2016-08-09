@@ -8,7 +8,9 @@
             "vacancies" : 2,
             "house" : "Australian Senate",
             "state" : "ACT",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -24,7 +26,9 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "NSW",
-            "automation" : [29252],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties": [[[29252, 29321], 29252]],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -40,11 +44,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "NSW",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form",
-		"recount_from": "nsw"
-	    },
+                "method": "restrict_form",
+                "recount_from": "nsw"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -60,11 +66,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "NSW",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form_with_savings",
-		"recount_from": "nsw"
-	    },
+                "method": "restrict_form_with_savings",
+                "recount_from": "nsw"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -78,7 +86,9 @@
             "name" : "NT",
             "shortname" : "nt",
             "description" : "Northern Territory",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "vacancies" : 2,
             "house" : "Australian Senate",
             "state" : "NT",
@@ -97,7 +107,9 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "QLD",
-            "automation" : [28387],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -113,11 +125,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "QLD",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form",
-		"recount_from": "qld"
-	    },
+                "method": "restrict_form",
+                "recount_from": "qld"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -133,11 +147,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "QLD",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form_with_savings",
-		"recount_from": "qld"
-	    },
+                "method": "restrict_form_with_savings",
+                "recount_from": "qld"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -153,7 +169,9 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "SA",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -169,11 +187,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "SA",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form",
-		"recount_from": "sa"
-	    },
+                "method": "restrict_form",
+                "recount_from": "sa"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -189,11 +209,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "SA",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form_with_savings",
-		"recount_from": "sa"
-	    },
+                "method": "restrict_form_with_savings",
+                "recount_from": "sa"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -210,7 +232,9 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "TAS",
-            "automation" : [28601],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [[[28601, 28385, 28054], 28601]],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -226,11 +250,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "TAS",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form",
-		"recount_from": "tas"
-	    },
+                "method": "restrict_form",
+                "recount_from": "tas"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -246,11 +272,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "TAS",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form_with_savings",
-		"recount_from": "tas"
-	    },
+                "method": "restrict_form_with_savings",
+                "recount_from": "tas"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -266,7 +294,9 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "VIC",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -282,11 +312,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "VIC",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form",
-		"recount_from": "vic"
-	    },
+                "method": "restrict_form",
+                "recount_from": "vic"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -302,11 +334,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "VIC",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form_with_savings",
-		"recount_from": "vic"
-	    },
+                "method": "restrict_form_with_savings",
+                "recount_from": "vic"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -322,7 +356,9 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "WA",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -338,11 +374,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "WA",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form",
-		"recount_from": "wa"
-	    },
+                "method": "restrict_form",
+                "recount_from": "wa"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -358,11 +396,13 @@
             "vacancies" : 6,
             "house" : "Australian Senate",
             "state" : "WA",
-            "automation" : [],
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
             "s282": {
-		"method": "restrict_form_with_savings",
-		"recount_from": "wa"
-	    },
+                "method": "restrict_form_with_savings",
+                "recount_from": "wa"
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -378,11 +418,13 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "WA",
-            "automation" : [],
-	    "remove": {
-		"method": "relaxed",
-		"candidates": [["CULLETON", "Rodney Norman"]]
-	    },
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
+            "remove": {
+                "method": "relaxed",
+                "candidates": [["CULLETON", "Rodney Norman"]]
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
@@ -398,11 +440,13 @@
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "WA",
-            "automation" : [],
-	    "remove": {
-		"method": "strict",
-		"candidates": [["CULLETON", "Rodney Norman"]]
-	    },
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
+            "remove": {
+                "method": "strict",
+                "candidates": [["CULLETON", "Rodney Norman"]]
+            },
             "aec-data" : {
                 "format": "AusSenatePost2015",
                 "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
