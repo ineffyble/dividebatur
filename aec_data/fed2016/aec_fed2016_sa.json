@@ -22,7 +22,7 @@
             "path" : "sa/data",
             "name" : "SA recount without FFP #1 relaxed BTL",
             "shortname" : "sa_minusffp1_relaxed",
-            "description" : "Western Australia - recount without FFP #1 - relaxed BTL formality",
+            "description" : "South Australia - recount without FFP #1 - relaxed BTL formality",
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "SA",
@@ -44,7 +44,7 @@
             "path" : "sa/data",
             "name" : "SA recount without FFP #1 strict BTL",
             "shortname" : "sa_minusffp1_strict",
-            "description" : "Western Australia - recount without FFP #1 - strict BTL formality",
+            "description" : "South Australia - recount without FFP #1 - strict BTL formality",
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "SA",
@@ -64,9 +64,9 @@
         },
         {
             "path" : "sa/data",
-            "name" : "SA recount without FFP #1,#2 relaxed BTL",
+            "name" : "SA recount without FFP #1 and no FFP ATL, relaxed BTL",
             "shortname" : "sa_minusffp12_relaxed",
-            "description" : "Western Australia - recount without FFP #1,#2 - relaxed BTL formality",
+            "description" : "South Australia - recount without FFP #1 and no FFP ATL - relaxed BTL formality",
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "SA",
@@ -75,7 +75,8 @@
             "exclusion_ties" : [],
             "remove": {
                 "method": "relaxed",
-                "candidates": [["DAY", "Bob"], ["GICHUHI", "Lucy"]]
+                "candidates": [["DAY", "Bob"], ["GICHUHI", "Lucy"]],
+                "atl_only": [false, true]
             },
             "aec-data" : {
                 "format": "AusSenatePost2015",
@@ -86,9 +87,9 @@
         },
         {
             "path" : "sa/data",
-            "name" : "SA recount without FFP #1,#2 strict BTL",
+            "name" : "SA recount without FFP #1 and no FFP ATL, strict BTL",
             "shortname" : "sa_minusffp12_strict",
-            "description" : "Western Australia - recount without FFP #1,#2 - strict BTL formality",
+            "description" : "South Australia - recount without FFP #1 and no FFP ATL - strict BTL formality",
             "vacancies" : 12,
             "house" : "Australian Senate",
             "state" : "SA",
@@ -97,7 +98,8 @@
             "exclusion_ties" : [],
             "remove": {
                 "method": "strict",
-                "candidates": [["DAY", "Bob"], ["GICHUHI", "Lucy"]]
+                "candidates": [["DAY", "Bob"], ["GICHUHI", "Lucy"]],
+                "atl_only": [false, true]
             },
             "aec-data" : {
                 "format": "AusSenatePost2015",
