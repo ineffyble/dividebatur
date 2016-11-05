@@ -181,6 +181,96 @@
         },
         {
             "path" : "sa/data",
+            "name" : "SA recount without FFP #1 relaxed BTL",
+            "shortname" : "sa_minusffp1_relaxed",
+            "description" : "South Australia - recount without FFP #1 - relaxed BTL formality",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "SA",
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
+            "remove": {
+                "method": "relaxed",
+                "candidates": [["DAY", "Bob"]]
+            },
+            "aec-data" : {
+                "format": "AusSenatePost2015",
+                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+                "formal-preferences": "sa/data/aec-senate-formalpreferences-20499-SA.csv"
+            }
+        },
+        {
+            "path" : "sa/data",
+            "name" : "SA recount without FFP #1 strict BTL",
+            "shortname" : "sa_minusffp1_strict",
+            "description" : "South Australia - recount without FFP #1 - strict BTL formality",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "SA",
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
+            "remove": {
+                "method": "strict",
+                "candidates": [["DAY", "Bob"]]
+            },
+            "aec-data" : {
+                "format": "AusSenatePost2015",
+                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+                "formal-preferences": "sa/data/aec-senate-formalpreferences-20499-SA.csv"
+            }
+        },
+        {
+            "path" : "sa/data",
+            "name" : "SA recount without FFP #1 and no FFP ATL, relaxed BTL",
+            "shortname" : "sa_minusffp12_relaxed",
+            "description" : "South Australia - recount without FFP #1 and no FFP ATL - relaxed BTL formality",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "SA",
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
+            "remove": {
+                "method": "relaxed",
+                "candidates": [["DAY", "Bob"], ["GICHUHI", "Lucy"]],
+                "atl_only": [false, true]
+            },
+            "aec-data" : {
+                "format": "AusSenatePost2015",
+                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+                "formal-preferences": "sa/data/aec-senate-formalpreferences-20499-SA.csv"
+            }
+        },
+        {
+            "path" : "sa/data",
+            "name" : "SA recount without FFP #1 and no FFP ATL, strict BTL",
+            "shortname" : "sa_minusffp12_strict",
+            "description" : "South Australia - recount without FFP #1 and no FFP ATL - strict BTL formality",
+            "vacancies" : 12,
+            "house" : "Australian Senate",
+            "state" : "SA",
+            "election_order_ties": [],
+            "election_ties": [],
+            "exclusion_ties" : [],
+            "remove": {
+                "method": "strict",
+                "candidates": [["DAY", "Bob"], ["GICHUHI", "Lucy"]],
+                "atl_only": [false, true]
+            },
+            "aec-data" : {
+                "format": "AusSenatePost2015",
+                "senate-candidates": "common/SenateCandidatesDownload-20499.csv",
+                "all-candidates": "common/2016federalelection-all-candidates-nat-30-06-924.csv",
+                "formal-preferences": "sa/data/aec-senate-formalpreferences-20499-SA.csv"
+            }
+        },
+        {
+            "path" : "sa/data",
             "name" : "SA s282 (1)",
             "shortname" : "sa_s282",
             "description" : "South Australia - s282 recount - limited original form",
