@@ -36,7 +36,7 @@ Creative Commons Attribution 3.0 Australia Licence (CC BY 3.0), and is
 
 ## Dependencies
 
-For Ubuntu:
+### For Ubuntu:
 
 Git Large File Support:
 
@@ -48,9 +48,17 @@ $ mv git-lfs-1.3.0/git-lfs $HOME/bin/git-lfs
 $ export PATH=$PATH:$HOME/bin/
 ```
 
-### Optional to run tests
+### For MacOS (using Homebrew):
+
+Git Large File Support:
+
 ```bash
-$ sudo apt-get install python3-pip
+$ brew install git-lfs
+```
+
+### Optional Python 3 dependencies to run tests:
+
+```bash
 $ pip3 install flake8
 $ pip3 install nose
 ```
